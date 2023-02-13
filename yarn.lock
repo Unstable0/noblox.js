@@ -6,20 +6,20 @@
   version "10.32.5"
   resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.32.5.tgz#4d866ac1c156c4aefb3a175c96fde2b8aa790171"
 
-"@auto-it/bot-list@10.32.6":
-  version "10.32.6"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.32.6.tgz#1dca37927db20c40ff3a52c3fee56e3c3aa821bf"
+"@auto-it/bot-list@10.42.0":
+  version "10.42.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.42.0.tgz#d3947036bf475d9bfd437829d4350e6c23cdd98f"
 
 "@auto-it/conventional-commits@^10.30.0":
-  version "10.32.6"
-  resolved "https://registry.yarnpkg.com/@auto-it/conventional-commits/-/conventional-commits-10.32.6.tgz#00677d50f3d6e8c3dbf0f3b55fa3a9415eb7e650"
+  version "10.42.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/conventional-commits/-/conventional-commits-10.42.0.tgz#33fcf9701bf9973fe24d81ea60ee03e3f8bb2210"
   dependencies:
-    "@auto-it/core" "10.32.6"
+    "@auto-it/core" "10.42.0"
     array.prototype.flatmap "^1.2.2"
     conventional-changelog-core "^4.2.0"
     conventional-changelog-preset-loader "^2.3.4"
     conventional-commits-parser "^3.1.0"
-    endent "^2.0.1"
+    endent "^2.1.0"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     tslib "2.1.0"
@@ -68,22 +68,23 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/core@10.32.6":
-  version "10.32.6"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.32.6.tgz#8e989d551f3bd709bb790d6f708f9e41f5edd6cc"
+"@auto-it/core@10.42.0":
+  version "10.42.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.42.0.tgz#3e2be4cea818c9824377898c4e7e455f8c3a20fb"
   dependencies:
-    "@auto-it/bot-list" "10.32.6"
+    "@auto-it/bot-list" "10.42.0"
     "@endemolshinegroup/cosmiconfig-typescript-loader" "^3.0.2"
-    "@octokit/plugin-enterprise-compatibility" "^1.2.2"
-    "@octokit/plugin-retry" "^3.0.1"
-    "@octokit/plugin-throttling" "^3.2.0"
-    "@octokit/rest" "^18.0.0"
+    "@octokit/core" "^3.5.1"
+    "@octokit/plugin-enterprise-compatibility" "1.3.0"
+    "@octokit/plugin-retry" "^3.0.9"
+    "@octokit/plugin-throttling" "^3.6.2"
+    "@octokit/rest" "^18.12.0"
     await-to-js "^3.0.0"
     chalk "^4.0.0"
     cosmiconfig "7.0.0"
     deepmerge "^4.0.0"
     dotenv "^8.0.0"
-    endent "^2.0.1"
+    endent "^2.1.0"
     enquirer "^2.3.4"
     env-ci "^5.0.1"
     fast-glob "^3.1.1"
@@ -96,7 +97,7 @@
     io-ts "^2.1.2"
     lodash.chunk "^4.2.0"
     log-symbols "^4.0.0"
-    node-fetch "2.6.1"
+    node-fetch "2.6.7"
     parse-author "^2.0.0"
     parse-github-url "1.0.2"
     pretty-ms "^7.0.0"
@@ -106,7 +107,7 @@
     tapable "^2.2.0"
     terminal-link "^2.1.1"
     tinycolor2 "^1.4.1"
-    ts-node "^9.1.1"
+    ts-node "^10.9.1"
     tslib "2.1.0"
     type-fest "^0.21.1"
     typescript-memoize "^1.0.0-alpha.3"
@@ -592,6 +593,12 @@
   version "0.2.3"
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
 
+"@cspotcode/source-map-support@^0.8.0":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
+  dependencies:
+    "@jridgewell/trace-mapping" "0.3.9"
+
 "@endemolshinegroup/cosmiconfig-typescript-loader@^3.0.2":
   version "3.0.2"
   resolved "https://registry.npmjs.org/@endemolshinegroup/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-3.0.2.tgz"
@@ -818,6 +825,21 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
+"@jridgewell/resolve-uri@^3.0.3":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz#2203b118c157721addfe69d47b70465463066d78"
+
+"@jridgewell/sourcemap-codec@^1.4.10":
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz#add4c98d341472a289190b424efbdb096991bb24"
+
+"@jridgewell/trace-mapping@0.3.9":
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz#6534fd5933a53ba7cbf3a17615e273a0d1273ff9"
+  dependencies:
+    "@jridgewell/resolve-uri" "^3.0.3"
+    "@jridgewell/sourcemap-codec" "^1.4.10"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -874,7 +896,7 @@
   version "11.2.0"
   resolved "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-11.2.0.tgz"
 
-"@octokit/plugin-enterprise-compatibility@^1.2.2":
+"@octokit/plugin-enterprise-compatibility@1.3.0", "@octokit/plugin-enterprise-compatibility@^1.2.2":
   version "1.3.0"
   resolved "https://registry.npmjs.org/@octokit/plugin-enterprise-compatibility/-/plugin-enterprise-compatibility-1.3.0.tgz"
   dependencies:
@@ -898,7 +920,7 @@
     "@octokit/types" "^6.34.0"
     deprecation "^2.3.1"
 
-"@octokit/plugin-retry@^3.0.1":
+"@octokit/plugin-retry@^3.0.1", "@octokit/plugin-retry@^3.0.9":
   version "3.0.9"
   resolved "https://registry.npmjs.org/@octokit/plugin-retry/-/plugin-retry-3.0.9.tgz"
   dependencies:
@@ -908,6 +930,13 @@
 "@octokit/plugin-throttling@^3.2.0":
   version "3.5.2"
   resolved "https://registry.npmjs.org/@octokit/plugin-throttling/-/plugin-throttling-3.5.2.tgz"
+  dependencies:
+    "@octokit/types" "^6.0.1"
+    bottleneck "^2.15.3"
+
+"@octokit/plugin-throttling@^3.6.2":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-3.7.0.tgz#a35cd05de22b2ef13fde45390d983ff8365b9a9e"
   dependencies:
     "@octokit/types" "^6.0.1"
     bottleneck "^2.15.3"
@@ -931,7 +960,7 @@
     node-fetch "^2.6.1"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@^18.0.0":
+"@octokit/rest@^18.0.0", "@octokit/rest@^18.12.0":
   version "18.12.0"
   resolved "https://registry.npmjs.org/@octokit/rest/-/rest-18.12.0.tgz"
   dependencies:
@@ -961,6 +990,22 @@
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@tootallnate/once/-/once-1.1.2.tgz"
+
+"@tsconfig/node10@^1.0.7":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.9.tgz#df4907fc07a886922637b15e02d4cebc4c0021b2"
+
+"@tsconfig/node12@^1.0.7":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node12/-/node12-1.0.11.tgz#ee3def1f27d9ed66dac6e46a295cffb0152e058d"
+
+"@tsconfig/node14@^1.0.0":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node14/-/node14-1.0.3.tgz#e4386316284f00b98435bf40f72f75a09dabf6c1"
+
+"@tsconfig/node16@^1.0.2":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
 
 "@types/babel-types@*", "@types/babel-types@^7.0.0":
   version "7.0.11"
@@ -1146,6 +1191,10 @@ acorn-walk@^7.1.1:
   version "7.2.0"
   resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz"
 
+acorn-walk@^8.1.1:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
+
 acorn@^3.1.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz"
@@ -1161,6 +1210,10 @@ acorn@^7.1.1, acorn@^7.4.0:
 acorn@^8.2.4:
   version "8.5.0"
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.5.0.tgz"
+
+acorn@^8.4.1:
+  version "8.8.2"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
 
 add-stream@^1.0.0:
   version "1.0.0"
@@ -2069,7 +2122,7 @@ emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
 
-endent@^2.0.1:
+endent@^2.0.1, endent@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/endent/-/endent-2.1.0.tgz"
   dependencies:
@@ -4052,6 +4105,12 @@ node-fetch@2.6.1, node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
 
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-gyp-build@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.3.0.tgz"
@@ -5254,6 +5313,10 @@ tr46@^2.1.0:
   dependencies:
     punycode "^2.1.1"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+
 trim-newlines@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/trim-newlines/-/trim-newlines-3.0.1.tgz"
@@ -5261,6 +5324,24 @@ trim-newlines@^3.0.0:
 ts-map@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/ts-map/-/ts-map-1.0.3.tgz"
+
+ts-node@^10.9.1:
+  version "10.9.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz#e73de9102958af9e1f0b168a6ff320e25adcff4b"
+  dependencies:
+    "@cspotcode/source-map-support" "^0.8.0"
+    "@tsconfig/node10" "^1.0.7"
+    "@tsconfig/node12" "^1.0.7"
+    "@tsconfig/node14" "^1.0.0"
+    "@tsconfig/node16" "^1.0.2"
+    acorn "^8.4.1"
+    acorn-walk "^8.1.1"
+    arg "^4.1.0"
+    create-require "^1.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    v8-compile-cache-lib "^3.0.1"
+    yn "3.1.1"
 
 ts-node@^9, ts-node@^9.1.1:
   version "9.1.1"
@@ -5456,6 +5537,10 @@ uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
 
+v8-compile-cache-lib@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
+
 v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
@@ -5533,6 +5618,10 @@ walker@^1.0.7:
   dependencies:
     makeerror "1.0.12"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+
 webidl-conversions@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-5.0.0.tgz"
@@ -5561,6 +5650,13 @@ whatwg-encoding@^1.0.5:
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 whatwg-url@^8.0.0, whatwg-url@^8.5.0:
   version "8.7.0"
